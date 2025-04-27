@@ -1,15 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h> 
-#include <string.h> //
+#include <string.h> 
 #include <unistd.h>
-#include <sys/ipc.h> //
+#include <sys/ipc.h> 
 #include <sys/shm.h>
 #include <sys/sem.h>
-#include <sys/types.h> //
+#include <sys/types.h> 
 #include <sys/wait.h>
-#include <signal.h> //
-#include <time.h>
+#include <signal.h> 
 
 #define QUEUE_CAPACITY 10
 #define DATA_MAX 256

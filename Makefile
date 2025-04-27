@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -W -Wall -D_POSIX_C_SOURCE=200809L -Wextra -std=c11 -pedantic -Wno-unused-parameter -Wno-unused-variable
+CFLAGS = -W -Wall -D_POSIX_C_SOURCE=200809L -Wextra -std=c11 -pedantic -Wno-unused-parameter -Wno-unused-variable -Werror
 SRC_DIR = src
 BUILD_DIR = build
 TARGET = $(BUILD_DIR)/prod_cons
